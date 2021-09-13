@@ -17,9 +17,16 @@ int lsearch(int *a,int n,int key)
 }
 int main()
 {
-    int a[]={2,5,17,89,66,84,11,93,1,0};
-    int n=10;
-    int key=84;
+    int a[100],n,key;                       //{2,5,17,89,66,84,11,93,1,0};
+    printf("Enter The Number of Elements:\t");
+    scanf("%d",&n);
+    printf("Enter the Array Elements : ");
+    for(int i=0;i<n;i++)
+    {
+          scanf("%d",&a[i]);       
+    }
+    printf("Enter the element to be searched:\t");
+    scanf("%d",&key);
     int res=lsearch(a,n,key);
     if(res==-1)
     {
