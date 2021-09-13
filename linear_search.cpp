@@ -1,3 +1,7 @@
+// Search for an Element in an Array (works for both sorted and unsorted ones)
+//Time Complexity O(N)
+
+//Used Recursion
 #include<stdio.h>
 int lsearch(int *a,int n,int key)
 {

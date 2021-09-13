@@ -1,3 +1,5 @@
+// Program to check whether an element is present in a Sorted Array or not
+// Time Complexity O(Log N)
 #include<stdio.h>
 int bsearch(int *a,int low,int high,int key)
 {

@@ -1,3 +1,5 @@
+//Sort an array using Insertion Sort Technique
+//Time Complexity O(N^2)
 #include<stdio.h>
 void insertsort(int *a,int n)
 {

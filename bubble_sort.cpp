@@ -1,9 +1,12 @@
+// Sort an array using Bubble Sort Technique
+
+//Time Complexity O(N^2)
 #include<stdio.h>
 void bubblesort(int *a,int n)
 {
     for(int i=0;i<n;i++)
     {
-        int count=0;
+        int count=0;// count variable checks whether any swap is made or not
         for(int j=0;j<n-i-1;j++)
         {
             if(a[j]>a[j+1])
@@ -14,7 +17,7 @@ void bubblesort(int *a,int n)
                 count++;
             }
         }
-        if(count==0)
+        if(count==0)// 0 swaps denotes that the array is Sorted
           return;
     }
 }

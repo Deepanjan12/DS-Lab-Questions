@@ -1,3 +1,5 @@
+//Sort an Array Using Selection Sort algorithm
+//Time Complexity O(N^2)
 #include<stdio.h>
 void selectionsort(int *a,int n)
 {

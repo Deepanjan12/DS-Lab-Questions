@@ -1,3 +1,19 @@
+/*
+One structure student will be defined with jee rank allotted stream aadhar number 
+class 10 and 12 marks% obtained.
+
+There will be one verify() where each student structure will be passed as parameter
+
+The verify method will check if there are individual pass mark or not 
+in every subject and there is valid rank obtained or not. 
+If all are ok then verify() will return 1 otherwise 0.
+If it is 1 then the structure will be passed to payment() where required fees 
+will be paid. Suppose Rs 70000 is required amount for admission. If it is paid 
+then payment method will return 1 otherwise 0. If this value is 1 then 
+add the structure to one array of structure Admission_Bit[ ].
+There will be one count function which can count number of student 
+admitted for CSE, ECE, IT, BT individually.
+*/
 #include<stdio.h>
 #include <string.h>
 struct student
