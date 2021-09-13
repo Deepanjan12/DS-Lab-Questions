@@ -23,10 +23,17 @@ void bubblesort(int *a,int n)
 }
 int main()
 {
-    int a[]={2,5,17,89,66,84,11,93,1,0};
-    int n=10;
+    int a[100],n;                       //{2,5,17,89,66,84,11,93,1,0};
+    printf("Enter The Number of Elements:\t");
+    scanf("%d",&n);
+    printf("Enter the Array Elements : ");
+    for(int i=0;i<n;i++)
+    {
+          scanf("%d",&a[i]);       
+    }
 
     bubblesort(a,n);
+    printf("The Array After Sorting: \n");
     for(int i=0;i<n;i++)
     {
         printf("%d  ",a[i]);
