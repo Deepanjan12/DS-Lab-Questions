@@ -9,7 +9,7 @@ v## Ignore Visual Studio temporary files, build results, and
 *.user
 *.userosscache
 *.sln.docstates
-
+*.exe
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
